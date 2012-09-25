@@ -1,0 +1,5 @@
+D:\Projects\NinjaCMS\NinjaCMS\bin\NinjaCMS.dll
+D:\Projects\NinjaCMS\NinjaCMS\bin\NinjaCMS.pdb
+D:\Projects\NinjaCMS\NinjaCMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\NinjaCMS\NinjaCMS\obj\Debug\NinjaCMS.dll
+D:\Projects\NinjaCMS\NinjaCMS\obj\Debug\NinjaCMS.pdb
