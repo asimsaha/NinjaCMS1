@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="Styles/ui-lightness/jquery-ui-1.8.22.custom.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="scripts/common/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="scripts/common/jquery-ui-1.8.22.custom.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#tabs").tabs();
+        });
+	</script>
+    <title></title>
+     <style type="text/css">
+            body{font-size:12px;}
+            {
+                font-size: 12px;
+            }
+            select
+            {
+                font-size: 12px;
+            }
+            legend  
+            {
+                color: #451266;
+                font-family: 'Ubuntu',sans-serif;
+                font-size: 14px;
+                font-weight: normal; 
+            }
+            fieldset {padding:10px 0; }--%>
+            button.ui-datepicker-current { display: none; }
+            input[type="button"], button, input[type="submit"] {
+                background: #103a10 url(../images/btn_bg.gif) 0 0 repeat-x;
+                border: medium none;
+                cursor: pointer;
+                height: 27px;
+                outline: medium none;
+                padding: 0  10px; border-radius:5px; color:#fff; font-family:'Ubuntu',sans-serif;}
+                 input[type="button"]:hover, button:hover {
+                background: #2b7d1a url(../images/btn_bg_h.gif) 0 0 repeat-x;}
+                legend{  color: #451266;
+                font-family: 'Ubuntu',sans-serif;
+                font-weight: bold;
+            }
+            fieldset { padding : 0px 3px 0px 3px; }
+    </style>   
+    
+</head>
+<body>
+<div style="width:80%;height:300px">
+<fieldset>
+<legend>Parent</legend>
+<table style="width:100%">
+<tr><td>Label1</td><td>
+    <input id="Text2" type="text" value="test" /></td><td>Label2</td><td>
+    <input id="Text1" type="text" /></td></tr>
+<tr><td>Label3</td><td>
+    <select id="Select1" name="D1">
+        <option>option1</option>
+        <option>option2</option>
+        <option>option3</option>
+    </select></td><td></td><td>&nbsp;</td></tr>
+
+
+<tr><td>Label4</td><td colspan="3" rowspan="2"><textarea rows="3" style="width:100%"></textarea></td></tr>
+
+
+<tr><td>&nbsp;</td></tr>
+
+
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+
+<tr><td colspan="4"><table style="width:100%">
+<tr>
+<td><strong>Available</strong></td>
+<td style="width:50px">
+    &nbsp;</td>
+<td><strong>Assigned</strong></td>
+</tr>
+<tr>
+<td><select name="drop1" id="Select2" size="4" multiple="multiple" style="width:100%">
+    <option value="1">item 1</option>    
+    <option value="3">item 3</option>
+    <option value="4">item 4</option>
+    
+</select>
+</td>
+<td style="width:50px">
+    <input id="Button1" type="button" value="---&gt;" /><br />
+    <input id="Button2" type="button"
+        value="&lt;---" /></td>
+<td><select name="drop1" id="Select3" size="4" multiple="multiple" style="width:100%">    
+    <option value="2">item 2</option>
+    
+</select>
+</td>
+</tr>
+</table></td></tr>
+
+
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+</table>
+</fieldset>
+</div>
+
+
+
+
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Child1</a></li>
+		<li><a href="#tabs-2">Child2</a></li>
+		<li><a href="#tabs-3">Child3</a></li>
+	</ul>
+	<div id="tabs-1">
+    <fieldset>
+		<legend>Child1
+        </legend>
+        <table width="70%">
+        <tr><td><strong>Column1</strong></td><td><strong>Column2</strong></td><td><strong>
+            Column3</strong></td><td><strong>Actions</strong></td></tr>
+        <tr><td>abc</td><td>efg</td><td>dyu</td><td><a href="#">edit</a>/<a href="#">delete</a></td></tr>
+        </table>
+        </fieldset>
+	</div>
+	<div id="tabs-2">
+    <fieldset>
+    <legend>Child3</legend>    
+		<table width="70%">
+
+        <tr><td><strong>Column1</strong></td><td><strong>Column2</strong></td><td><strong>
+            Column3</strong></td><td><strong>Actions</strong></td></tr>
+        <tr><td>abc</td><td>efg</td><td>dyu</td><td><a href="#">edit</a>/<a href="#">delete</a></td></tr>
+        </table>
+        </fieldset>
+	</div>
+	<div id="tabs-3">
+    <fieldset>
+    <legend>Child3</legend>    
+		<table width="70%">
+        <tr><td><strong>Column1</strong></td><td><strong>Column2</strong></td><td><strong>
+            Column3</strong></td><td><strong>Actions</strong></td></tr>
+        <tr><td>abc</td><td>efg</td><td>dyu</td><td><a href="#">edit</a>/<a href="#">delete</a></td></tr>
+        </table>
+        </fieldset>
+	</div>
+</div>
+</body>
+</html>
